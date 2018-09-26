@@ -1,0 +1,36 @@
+* {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.title {
+  color: rgb(224, 132, 194);
+}
+
+.button {
+  height: 100px;
+  width: 100px;
+}
+
+.button__red {
+  background-color: red;
+}
+.button__green {
+  background-color:green;
+}
+.button__yellow {
+  background-color: yellow;
+}
+.button__blue {
+  background-color: blue;
+}
+.prompt-box {
+  height: 200px;
+  width: 100%;
+}
+.button__begin {
+  display: block;
+  height: 40px;
+  width: 80px;
+  margin: 30px;
+  color: rgb(224, 132, 194);
+}
