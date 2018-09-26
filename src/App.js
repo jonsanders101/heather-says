@@ -11,10 +11,7 @@ class App extends Component {
           <h1 class="title">Heather Says...</h1>
           <button class="button button--begin">Begin</button>
           {COLOURS.map(colour => <ColourButton colour={colour.toLowerCase()}/>)}
-    
         <div class="prompt-box" id="prompt-box"></div>
-        <script src="game.js"></script>
-        <script src="index.js"></script>
       </div>
     );
   }
