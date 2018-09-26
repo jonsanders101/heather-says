@@ -11,23 +11,23 @@
   width: 100px;
 }
 
-.button__red {
+.button--red {
   background-color: red;
 }
-.button__green {
+.button--green {
   background-color:green;
 }
-.button__yellow {
+.button--yellow {
   background-color: yellow;
 }
-.button__blue {
+.button--blue {
   background-color: blue;
 }
 .prompt-box {
   height: 200px;
   width: 100%;
 }
-.button__begin {
+.button--begin {
   display: block;
   height: 40px;
   width: 80px;
