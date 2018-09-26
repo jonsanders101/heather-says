@@ -38,11 +38,8 @@ class App extends Component {
         setTimeout(() => {
             this.setState({...this.state, currentColourDisplayed: colour});
         }, timeout)
-
-        if (index === this.state.solution.length - 1) {
-            setTimeout(() => {this.setState({...this.state, currentColourDisplayed: null})}, timeout + timeoutIncrement);
-        }
-    })
+    });
+      setTimeout(() => {this.setState({...this.state, currentColourDisplayed: null})}, timeout + timeoutIncrement);
   }
 
   randomColour() {
